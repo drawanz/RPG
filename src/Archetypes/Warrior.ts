@@ -1,7 +1,7 @@
 import { EnergyType } from '../Energy';
-import Archetypes from './Archetypes';
+import Archetype from './Archetype';
 
-export default class Warrior extends Archetypes {
+export default class Warrior extends Archetype {
   static counter = 0;
   private _hability: EnergyType;
   constructor(_name: string) {
